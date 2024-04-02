@@ -1,0 +1,375 @@
+body{
+    background: url(Poto.logo/wood.logo2.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+   
+
+
+.divtitle{
+    box-shadow: 0px 0px 20px rgb(153, 92, 0);
+    font-size: 50px;
+    background: url(Poto.logo/wood.logo2.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 120px;
+    
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+    background: #000000cc;
+}
+ul li {
+    display:  inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li ul.dropdow li {
+    display: block;
+    
+}
+ul li ul.dropdow {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.822);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #000000b0;
+}
+ul li:hover ul.dropdow{
+    display: block;
+}
+
+
+
+.sectionmenu{
+    background: url(Poto.logo/wood.2.jpeg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.div1{
+    background-color: #ffffffd8;
+    width: auto;
+    height: 260px;
+    box-shadow: 0px 0px 20px rgb(153, 92, 0); 
+}
+.div2{
+    background-color: #ffffffd8;
+    width: auto;
+    height: 280px;
+    box-shadow: 0px 0px 20px rgb(153, 92, 0);
+    margin-top: 20px; 
+
+}
+.div3{
+    background-color: #ffffffd8;
+    width: auto;
+    height: 280px;
+    box-shadow: 0px 0px 20px rgb(153, 92, 0); 
+    margin-top: 20px;
+
+}
+.div4{
+    background-color: #ffffffd8;
+    width: auto;
+    height: 280px;
+    box-shadow: 0px 0px 20px rgb(153, 92, 0); 
+    margin-top: 20px;
+
+}
+.div5{
+    background-color: #ffffffd8;
+    width: auto;
+    height: 280px;
+    box-shadow: 0px 0px 20px rgb(153, 92, 0); 
+    margin-top: 20px;
+
+}
+
+.div1 p {
+    font-size: 40px;
+    font-family: monospace;
+    color: #000000d3;
+    width: auto;
+    margin-top: -220px;
+    margin-left: 400px;    
+}
+.div1 p a{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div2 p {
+    font-size: 40px;
+    font-family: monospace;
+    color: #000000;
+    width: auto;
+    margin-top: -240px;
+    margin-left: 400px;
+}
+.div2 p a{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div3 p {
+    font-size: 40px;
+    font-family: monospace;
+    color: #000000;
+    width: auto;
+    margin-top: -240px;
+    margin-left: 400px;
+}
+.div3 p a{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div4 p {
+    font-size: 40px;
+    font-family: monospace;
+    color: #000000;
+    width: auto;
+    margin-top: -240px;
+    margin-left: 400px;
+}
+.div4 p a{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div5 p {
+    font-size: 40px;
+    font-family: monospace;
+    color: #000000;
+    width: auto;
+    margin-top: -240px;
+    margin-left: 400px;
+}
+.div5 p a{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 400ms;
+}
+.img1:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.img2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: 400ms;
+}
+.img2:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.img3{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: 400ms;
+}
+
+.img3:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+.img4{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: 400ms;
+}
+.img4:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.img5{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: 400ms;
+}
+.img5:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+.divdown0{
+    
+    height: 30px;
+    background: url(Poto.logo/wood.0.jpg);
+    
+    
+}
+.sectiondown{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 100px;
+}
+    
+
+.divdown1{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 300px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown1:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown1 a{
+    color: rgb(0, 0, 0);
+}
+.divdown2{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 270px;
+    margin-left: 40%;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown2:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown2 a{
+    color: rgb(0, 0, 0);
+}
+
+
+.divdown3{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 200px;
+    margin-left: auto;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown3:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown3 a{
+    color: rgb(0, 0, 0);
+}
+
+.p1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.imginstgram{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgtelepone{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgmap{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+    
+

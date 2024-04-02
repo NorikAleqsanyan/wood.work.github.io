@@ -1,0 +1,239 @@
+body{
+    
+    background-position: left;
+    background-size: cover;
+}
+   
+
+
+.divtitle{
+    box-shadow: 0px 0px 20px rgb(153, 92, 0);
+    font-size: 50px;
+    background: url(Poto.logo/wood.logo2.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 120px;
+    
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+    background: url(Poto.logo/wood.title.jpg) no-repeat;
+}
+ul li {
+    display:  inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li ul.dropdow li {
+    display: block;
+    
+}
+ul li ul.dropdow {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.822);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #000000b0;
+}
+ul li:hover ul.dropdow{
+    display: block;
+}
+
+
+
+#searchbar {
+    margin-top: 20px;
+    background-color: black;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+ 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.section1 img{
+    width: 500px;
+    height: 400px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 60px;
+    transition: 400ms;
+}
+.section1 img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+.sectiondown{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 100px;
+    margin-top: 300px;
+}
+
+.divdown1{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 300px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown1:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown1 a{
+    color: aliceblue;
+}
+.divdown2{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 270px;
+    margin-left: 40%;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown2:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown2 a{
+    color: aliceblue;
+}
+
+
+.divdown3{
+    background-color:rgba(0, 0, 0, 0.801);
+    width: 200px;
+    margin-left: auto;
+    margin-top: -90px;
+    height: 90px;
+    border: 2px;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px ;
+    cursor: pointer;
+    transition: 400ms;
+}
+.divdown3:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.divdown3 a{
+    color: aliceblue;
+}
+
+.p1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.p3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+    font-size: 30px;
+}
+.imginstgram{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgtelepone{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgmap{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+    
+
+
